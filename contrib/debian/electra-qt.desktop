@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=time
+Comment=time P2P Cryptocurrency
+Comment[fr]=time, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=time, eşten eşe kriptografik sanal para birimi
+Exec=time-qt %u
+Terminal=false
+Type=Application
+Icon=bitcoin128
+MimeType=x-scheme-handler/time;
+Categories=Office;Finance;

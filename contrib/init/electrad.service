@@ -1,0 +1,26 @@
+[Unit]
+Description=time's distributed currency daemon
+After=network.target
+
+[Service]
+User=time
+Group=time
+
+Type=forking
+PIDFile=/var/lib/timed/timed.pid
+
+ExecStart=/usr/bin/timed -daemon -pid=/var/lib/timed/timed.pid \
+          -conf=/etc/time/time.conf -datadir=/var/lib/timed
+
+ExecStop=-/usr/bin/time-cli -conf=/etc/time/time.conf \
+         -datadir=/var/lib/timed stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target
