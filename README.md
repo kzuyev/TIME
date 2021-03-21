@@ -1,25 +1,24 @@
-# time
+# TIME
 
-<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/Sxvgf6zW/splash.png' border='0' alt='splash'/></a>
- 
+ <a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/C5vW9SdV/time-logo.png' border='0' alt='time-logo'/></a>
 
-# What is time?
+# What is TIME?
 time is a Blockchain using the highly-secure and power-efficient NIST5 algorithm. Combining limited Proof-of-Work, time coin (time) is unique in its distribution. 
 
 <a name="specifications"></a>
 ## Technical Specifications
 <table>
-<tr> <td>Ticker</td><td>time</td></tr>
+<tr> <td>Ticker</td><td>TIME</td></tr>
 <tr> <td>Algorithm</td><td>NIST5/SHA-256</td></tr>
 <tr> <td>Consensus</td><td>Proof-of-Work</td></tr>
-<tr> <td>Maximum Supply</td><td>21,000,000* </td></tr>
-<tr> <td>Block Time</td><td>64 Seconds</td></tr>
+<tr> <td>Maximum Supply</td><td>25,000,000* </td></tr>
+<tr> <td>Block Time</td><td>300 Seconds</td></tr>
 <tr> <td>Block Size</td><td>10 MB</td></tr>
 <tr> <td>Transactions Per Second</td><td>~800</td></tr>
 <tr> <td>Retarget</td><td>Every Block</td></tr>
 <tr> <td>Lightning Network</td><td>Yes</td></tr>
 <tr> <td>Atomic Swap</td><td>Yes (Barterdex)</td></tr>
-<tr> <td>Premine</td><td>3%</td></tr>
+<tr> <td>Premine</td><td>4M TIME</td></tr>
 <tr> <td>Foundation</td><td>Yes</td></tr>
 </table>
 
